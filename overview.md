@@ -81,9 +81,10 @@ Using string.slice
   [Defining Functions](/resources/type_crash_course.md)
 
 ###Check For Understanding
-1.
-2.
-3.
+1. What is the basic anatomy of a function?
+2. In two different styles, write a basic function called "basicFunction".  First time use "function definition".  Second time use "function expression".
+
+From now on, write your function sin the "function definition" style.
 
 ## 5. Objects and Arrays
   Eloquent JavaScript link:
