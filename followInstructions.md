@@ -17,4 +17,4 @@ https://github.com/Jbays/js-basic-training
   Optional
   1. iterm, ohmyzsh, node
 
-3.  Follow Instructions on overview.md
+3.  After completing all instructions here, your new source of truth is overview.md.
