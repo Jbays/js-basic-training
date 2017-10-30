@@ -27,6 +27,8 @@ Resources:
 
 http://eloquentjavascript.net/01_values.html
 
+[String Methods](../resources/string_methods.md)
+[Crash Course onTypes](../resources/type_crash_course.md)
 
 
 ###Check For Understanding
@@ -40,23 +42,40 @@ http://eloquentjavascript.net/01_values.html
 8. Use a built-in string method to lowercase your string's every letter.
 
 ## 3. Program Structure
-  Eloquent JavaScript link:
 
-  http://eloquentjavascript.net/02_program_structure.html
+[Eloquent JavaScript's Chapter 2]http://eloquentjavascript.net/02_program_structure.html
+
+###Check For Understanding
+1. 
+2.
+3.
 
 ## 4. Functions
-  Eloquent JavaScript link:
+  [Eloquent JavaScript's Chapter 3]http://eloquentjavascript.net/03_functions.html
 
-  http://eloquentjavascript.net/03_functions.html
+###Check For Understanding
+1.
+2.
+3.
 
 ## 5. Objects and Arrays
   Eloquent JavaScript link:
 
   http://eloquentjavascript.net/04_data.html
 
+###Check For Understanding
+1.
+2.
+3.
+
 ## 6. Higher-Order Functions
   Eloquent JavaScript link:
 
   http://eloquentjavascript.net/05_higher_order.html
+
+###Check For Understanding
+1.
+2.
+3.
 
 ## 7. Ready To Apply / Next Steps
