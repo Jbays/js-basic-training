@@ -1,6 +1,6 @@
-#Eloquent JavaScript (abridged)
+# Eloquent JavaScript (abridged)
 
-##Table of Contents
+## Table of Contents
 1. Resources.
 2. Values, Types, and Operators
 3. Program Structure
@@ -9,7 +9,7 @@
 6. Higher-Order Functions
 7. Ready To Apply / Next Steps
 
-##1. Resources
+## 1. Resources
 1. Eloquent JavaScript
 
  http://eloquentjavascript.net/
@@ -30,13 +30,13 @@ http://eloquentjavascript.net/01_values.html
 [String Methods](/resources/string_methods.md)
 [Crash Course onTypes](/resources/type_crash_course.md)
 
-###Check For Understanding
-####Types
+### Check For Understanding
+#### Types
 1. JavaScript has how many different types?
 2. List all types.
 3. Declare a variable of each type.
 
-####Strings
+#### Strings
 4. What is a string?
 5. Define your own unique string.
 6. Write code to access the third letter in your string.
@@ -62,14 +62,14 @@ Using string.slice
 
 [Eloquent JavaScript's Chapter 2]http://eloquentjavascript.net/02_program_structure.html
 
-###Check For Understanding
-####Conditionals
+### Check For Understanding
+#### Conditionals
 1. Write a conditional
 2. Write another conditional.  In plain language, explain your conditional code.
 3. Write an if-else conditional.
 4. Write an if -- else if -- else conditional.
 
-####For-Loops
+#### For-Loops
 5. Write a for-loop that logs 1 through 100 to the console.
 6. Write a for-loop that logs EVEN NUMBERS 1-100 to the console.
 7. Write a DECREMENTING for-loop that logs 100 through 1 to the console.
@@ -80,7 +80,7 @@ Using string.slice
   [Basic Use of Function](/resources/string_methods.md)
   [Defining Functions](/resources/type_crash_course.md)
 
-###Check For Understanding
+### Check For Understanding
 1. What is the basic anatomy of a function?
 2. In two different styles, write a basic function called "basicFunction".  First time use "function definition".  Second time use "function expression".
 
@@ -91,7 +91,7 @@ From now on, write your function sin the "function definition" style.
 
   http://eloquentjavascript.net/04_data.html
 
-###Check For Understanding
+### Check For Understanding
 1.
 2.
 3.
@@ -101,7 +101,7 @@ From now on, write your function sin the "function definition" style.
 
   http://eloquentjavascript.net/05_higher_order.html
 
-###Check For Understanding
+### Check For Understanding
 1.
 2.
 3.
