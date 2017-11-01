@@ -1,7 +1,7 @@
 # Eloquent JavaScript (abridged)
 
 ## Table of Contents
-1. Resources.
+1. General Resources
 2. Values, Types, and Operators
 3. Program Structure
 4. Functions                
@@ -9,18 +9,18 @@
 6. Higher-Order Functions
 7. Ready To Apply / Next Steps
 
-## 1. Resources
-1. Eloquent JavaScript
+## 1. General Resources
+Eloquent JavaScript
 
- http://eloquentjavascript.net/
+http://eloquentjavascript.net/
 
-2. Basic Training Repo
+Basic Training Repo
 
-  https://github.com/Jbays/js-basic-training
+https://github.com/Jbays/js-basic-training
 
-3. CodeWars - beat 5 challenges at Level 7
+CodeWars - beat 5 challenges at Level 7
 
-  https://www.codewars.com/
+https://www.codewars.com/
 
 ## 2. Values, Types, and Operators
 Resources:
@@ -54,9 +54,8 @@ basicTrainingString.lastIndexOf('i');
 ```
 
 10. What does the above code return?
-Using string.slice
-11. Return "Basic".
-12. Return "Training".
+11. Using string.slice, return "Basic".
+12. Using string.slice, return "Training".
 
 ## 3. Program Structure
 
@@ -75,10 +74,10 @@ Using string.slice
 7. Write a DECREMENTING for-loop that logs 100 through 1 to the console.
 
 ## 4. Functions
-  [Eloquent JavaScript's Chapter 3]http://eloquentjavascript.net/03_functions.html
-  [Intro To Functions](/resources/string_methods.md)
-  [Basic Use of Function](/resources/string_methods.md)
-  [Defining Functions](/resources/type_crash_course.md)
+[Eloquent JavaScript's Chapter 3]http://eloquentjavascript.net/03_functions.html
+[Intro To Functions](/resources/string_methods.md)
+[Basic Use of Function](/resources/string_methods.md)
+[Defining Functions](/resources/type_crash_course.md)
 
 ### Check For Understanding
 1. What is the basic anatomy of a function?
@@ -87,9 +86,9 @@ Using string.slice
 From now on, write your function sin the "function definition" style.
 
 ## 5. Objects and Arrays
-  Eloquent JavaScript link:
+Eloquent JavaScript link:
 
-  http://eloquentjavascript.net/04_data.html
+http://eloquentjavascript.net/04_data.html
 
 ### Check For Understanding
 1.
@@ -97,9 +96,9 @@ From now on, write your function sin the "function definition" style.
 3.
 
 ## 6. Higher-Order Functions
-  Eloquent JavaScript link:
+Eloquent JavaScript link:
 
-  http://eloquentjavascript.net/05_higher_order.html
+http://eloquentjavascript.net/05_higher_order.html
 
 ### Check For Understanding
 1.
