@@ -1,13 +1,5 @@
 # Eloquent JavaScript (abridged)
 
-## Table of Contents
-1.  Values, Types, and Operators
-2.  Program Structure
-3.  Functions                
-4.  Objects and Arrays
-5.  Higher-Order Functions
-6.  Ready To Apply / Next Steps
-
 ## General Resources
 Eloquent JavaScript
 
@@ -20,6 +12,14 @@ https://github.com/Jbays/js-basic-training
 CodeWars - beat 5 challenges at Level 7
 
 https://www.codewars.com/
+
+## Table of Contents
+1.  Values, Types, and Operators
+2.  Program Structure
+3.  Functions                
+4.  Objects and Arrays
+5.  Higher-Order Functions
+6.  Ready To Apply / Next Steps
 
 ## 1. Values, Types, and Operators
 Resources:
@@ -86,7 +86,7 @@ basicTrainingString.lastIndexOf('i');
 1. What is the basic anatomy of a function?
 2. In two different styles, write a basic function called "basicFunction".  First time use "function definition".  Second time use "function expression".
 
-From now on, write your function sin the "function definition" style.
+From now on, write your functions in the "function definition" style.
 
 ## 4. Objects and Arrays
 
@@ -115,7 +115,6 @@ let pizzaTypes = ['deepDish','Neapolitan','thinCrust','bad'];
 5. Use the concat method on pizzaTypes.  Note: You will need to create another array.
 6. Use join to turn an array into a string.  Use split to turn string into array.
 7. Use Math.floor and Math.random to generate random integers.
-
 
 ### Check For Understanding (Objects I)
 1. What's a key-value pair?  Make an object to illustrate.
