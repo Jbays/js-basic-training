@@ -1,15 +1,14 @@
 # Eloquent JavaScript (abridged)
 
 ## Table of Contents
-1. General Resources
-2. Values, Types, and Operators
-3. Program Structure
-4. Functions                
-5. Objects and Arrays
-6. Higher-Order Functions
-7. Ready To Apply / Next Steps
+1.  Values, Types, and Operators
+2.  Program Structure
+3.  Functions                
+4.  Objects and Arrays
+5.  Higher-Order Functions
+6.  Ready To Apply / Next Steps
 
-## 1. General Resources
+## General Resources
 Eloquent JavaScript
 
 http://eloquentjavascript.net/
@@ -22,7 +21,7 @@ CodeWars - beat 5 challenges at Level 7
 
 https://www.codewars.com/
 
-## 2. Values, Types, and Operators
+## 1. Values, Types, and Operators
 Resources:
 
 [Eloquent JavaScript Ch. 1](http://eloquentjavascript.net/01_values.html)
@@ -58,7 +57,7 @@ basicTrainingString.lastIndexOf('i');
 11. Using string.slice, return "Basic".
 12. Using string.slice, return "Training".
 
-## 3. Program Structure
+## 2. Program Structure
 
 [Eloquent JavaScript Ch. 2](http://eloquentjavascript.net/02_program_structure.html)
 
@@ -74,10 +73,13 @@ basicTrainingString.lastIndexOf('i');
 6. Write a for-loop that logs EVEN NUMBERS 1-100 to the console.
 7. Write a DECREMENTING for-loop that logs 100 through 1 to the console.
 
-## 4. Functions
+## 3. Functions
 [Eloquent JavaScript Ch. 3](http://eloquentjavascript.net/03_functions.html)
+
 [Intro To Functions](/resources/string_methods.md)
+
 [Basic Use of Function](/resources/string_methods.md)
+
 [Defining Functions](/resources/type_crash_course.md)
 
 ### Check For Understanding
@@ -86,10 +88,12 @@ basicTrainingString.lastIndexOf('i');
 
 From now on, write your function sin the "function definition" style.
 
-## 5. Objects and Arrays
+## 4. Objects and Arrays
 
 [Eloquent JavaScript Ch. 4](http://eloquentjavascript.net/04_data.html)
+
 [Intro To Arrays](/resources/intro_to_arrays)
+
 [MDN's Object Intro](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
 ### Check For Understanding (Arrays I)
@@ -126,14 +130,13 @@ let pizzaTypes = ['deepDish','Neapolitan','thinCrust','bad'];
 3. To "pet" object, use dot notation to add another key-value pair.  You choose specifics.
 4. To "pet" object, use bracket notation to add another key-value pair.  You choose specifics.
 
-## 6. Higher-Order Functions
-Eloquent JavaScript link:
+## 5. Higher-Order Functions
+[Eloquent JavaScript Ch. 5](http://eloquentjavascript.net/05_higher_order.html)
 
-http://eloquentjavascript.net/05_higher_order.html
 
 ### Check For Understanding
 1.
 2.
 3.
 
-## 7. Ready To Apply / Next Steps
+## 6. Ready To Apply / Next Steps
