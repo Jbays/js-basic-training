@@ -25,9 +25,10 @@ https://www.codewars.com/
 ## 2. Values, Types, and Operators
 Resources:
 
-http://eloquentjavascript.net/01_values.html
+[Eloquent JavaScript Ch. 1](http://eloquentjavascript.net/01_values.html)
 
 [String Methods](/resources/string_methods.md)
+
 [Crash Course onTypes](/resources/type_crash_course.md)
 
 ### Check For Understanding
@@ -59,7 +60,7 @@ basicTrainingString.lastIndexOf('i');
 
 ## 3. Program Structure
 
-[Eloquent JavaScript's Chapter 2]http://eloquentjavascript.net/02_program_structure.html
+[Eloquent JavaScript Ch. 2](http://eloquentjavascript.net/02_program_structure.html)
 
 ### Check For Understanding
 #### Conditionals
@@ -74,7 +75,7 @@ basicTrainingString.lastIndexOf('i');
 7. Write a DECREMENTING for-loop that logs 100 through 1 to the console.
 
 ## 4. Functions
-[Eloquent JavaScript's Chapter 3]http://eloquentjavascript.net/03_functions.html
+[Eloquent JavaScript Ch. 3](http://eloquentjavascript.net/03_functions.html)
 [Intro To Functions](/resources/string_methods.md)
 [Basic Use of Function](/resources/string_methods.md)
 [Defining Functions](/resources/type_crash_course.md)
@@ -86,14 +87,44 @@ basicTrainingString.lastIndexOf('i');
 From now on, write your function sin the "function definition" style.
 
 ## 5. Objects and Arrays
-Eloquent JavaScript link:
 
-http://eloquentjavascript.net/04_data.html
+[Eloquent JavaScript Ch. 4](http://eloquentjavascript.net/04_data.html)
+[Intro To Arrays](/resources/intro_to_arrays)
+[MDN's Object Intro](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
-### Check For Understanding
-1.
-2.
-3.
+### Check For Understanding (Arrays I)
+1. Write an array called "fruits" which contains three different fruits.
+2. How can I access the second piece of fruit in fruits array?
+3. Use simple array methods to add fruit to the fruits array.
+4. Use simple array methods to remove fruit from the fruits array.
+5. What means fruits.length?
+
+```javascript
+let pizzaTypes = ['deepDish','Neapolitan','thinCrust','bad'];
+```
+
+### Check For Understanding (Arrays II)
+1. How to access 'Neapolitan'?  And 'bad'?
+2. Add a few elements in pizzaTypes array.  Remove 'thinCrust'.
+3. What are the four most common array methods for adding / removing elements?
+4. Give code examples of all four.
+5. Use the concat method on pizzaTypes.  Note: You will need to create another array.
+6. Use join to turn an array into a string.  Use split to turn string into array.
+7. Use Math.floor and Math.random to generate random integers.
+
+
+### Check For Understanding (Objects I)
+1. What's a key-value pair?  Make an object to illustrate.
+2. What's the difference between objects and arrays?
+3. Create an object using object literal syntax.
+4. Add and access values using both bracket and dot notation.
+5. Combine objects with arrays.  Combine arrays with objects.
+
+### Check For Understanding (Objects II)
+1. Create an empty object called "pet".
+2. To your pet object, add "name", "color", "age", and "isFavorite" key-value pairs.  "name" and "color" type are strings.  "age" is a number.  "isFavorite" is boolean.
+3. To "pet" object, use dot notation to add another key-value pair.  You choose specifics.
+4. To "pet" object, use bracket notation to add another key-value pair.  You choose specifics.
 
 ## 6. Higher-Order Functions
 Eloquent JavaScript link:
