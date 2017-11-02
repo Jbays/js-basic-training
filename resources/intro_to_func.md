@@ -142,32 +142,3 @@ drink(beer);              // Here we use the drink function again, but this time
 ## Next Steps
 
 Now that you have a high level understanding that functions are the verbs of our programs, it's time to start looking at the specifics of how to use them.
-
-## Table of Contents
-
-### Basic Training Materials
-
-- [Introduction](../README.md)
-- [JavaScript and Modern Web Development](modern_web_development.md)
-- [Dev Environment Setup](setup.md)
-- *Introduction to Functions*
-- [Basic Use of Functions](basic_use_of_functions.md)
-- [JavaScript Types Crash Course](type_crash_course.md)
-- [Functions that Make Values](functions_that_make_values.md)
-- [JavaScript Types Crash Course](type_crash_course.md)
-- [Variables](variables.md)
-- [String Methods](string_methods.md)
-- [Introduction to Arrays](intro_to_arrays.md)
-- [Defining Functions](defining_functions.md)
-- [Leveraging Multiple Functions](leveraging_multiple_functions.md)
-- [Next Steps](next_steps.md)
-
-### Advanced Content
-
-  - [Passing Functions as Arguments](passing_functions_as_arguments.md)
-  - [Higher Order Array Methods](higher_order_array_methods.md)
-
-### Appendix
-
-    - [Reference and Further Study](reference.md)
-s

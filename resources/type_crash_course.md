@@ -167,8 +167,10 @@ console.log('Is this really the same?' === 'Is this really the same?'); // logs 
 Interestingly, values of the `string` type can also use the `+` operator, but unlike values of the `number` type, `string`s when used with `+` are concatenated (joined) together:
 
 ```javascript
-console.log('Me and ' + 'you.')                                       // logs `'Me and you'` to the console
-console.log('Me and ' + 'you... ' + 'your mama and your cousin too.') // logs `'Me and you... your mama and your cousin too.'` to the console
+console.log('Me and ' + 'you.')                                       
+// logs `'Me and you'` to the console
+console.log('Me and ' + 'you... ' + 'your mama and your cousin too.')
+// logs `'Me and you... your mama and your cousin too.'` to the console
 ```
 
 :star: Copy and paste the following code snippet into a text editor, and replace all of the `?`s with some other values so that the `console.log` prints `'This is a sentence.'`:
