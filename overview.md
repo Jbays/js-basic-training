@@ -78,17 +78,19 @@ basicTrainingString.lastIndexOf('i');
 ## 3. Functions
 [Eloquent JavaScript Ch. 3](http://eloquentjavascript.net/03_functions.html)
 
-[Intro To Functions](/resources/string_methods.md)
+[Intro To Functions](/resources/intro_to_func.md)
 
-[Basic Use of Function](/resources/string_methods.md)
+[Basic Use of Function](/resources/basics_func.md)
 
-[Defining Functions](/resources/type_crash_course.md)
+[Defining Functions](/resources/defining_func.md)
 
-### Check For Understanding
+[Functions Make Values](/resources/funcs_make_values.md)
+
+### Check For Understanding (Functions I)
 1. What is the basic anatomy of a function?
-2. In two different styles, write a basic function called "basicFunction".  First time use "function definition".  Second time use "function expression".
+2. In two different styles, write a function called "basicFunction" that logs to the console "hello world".  First time use "function declaration".  Second time use "function expression".
 
-From now on, write your functions in the "function definition" style.
+From now on, write your functions in **function declaration**.
 
 ## 4. Objects and Arrays
 
@@ -134,13 +136,86 @@ let pizzaTypes = ['deepDish','Neapolitan','thinCrust','bad'];
 ## 5. Higher-Order Functions
 [Eloquent JavaScript Ch. 5](http://eloquentjavascript.net/05_higher_order.html)
 
-[Functions Make Values](/resources/funcs_make_values)
+[Leveraging Multiple Functions](/resources/multi_functions.md)
 
-[Leveraging Multiple Functions](/resources/multi_functions)
+[Higher-Order Array Methods](/resources/adv_array_methods.md)
 
-### Check For Understanding
-1.
-2.
-3.
+### Check For Understanding (Functions II)
+1. Write a function called "iFindMax".
+```javascript
+let randomNumbers = [1,6,7,8,11,2,3,9]
+iFindMax(randomNumbers) //==> 11
+```
+⋅⋅1. For input, iFindMax takes an array
+⋅⋅2. For output, iFindMax returns the highest number in the array.
+
+2. Write a function called "iFindMin".
+```javascript
+let randoNumbos = [1,6,-7,8,11,-2,3,9]
+iFindMin(randoNumbos) //==> -7
+```
+⋅⋅1. For input, iFindMax takes an array
+⋅⋅2. For output, iFindMax returns the lowest number in the array.
+
+3. Write a function called "iLikeToAdd"
+```javascript
+let randoNumbos = [1,6,-7,8,11,-2,3,9]
+iLikeToAdd(7,4)   //==> 11
+iLikeToAdd(13,-4) //==> 9
+```
+⋅⋅1. iLikeToAdd takes two parameters.
+⋅⋅2. As output, iLikeToAdd returns the sum of both parameters
+
+### Check For Understanding (Functions III)
+
+1. Write a function called myForEach.
+⋅⋅1. myForEach takes two parameters.  First is an array.  Second is a callback.
+⋅⋅2. myForEach should apply the callback to each element in the array.
+```javascript
+let oldSchoolMovie = ["Frank", "The", "Tank"]
+myForEach(oldSchoolMovie,console.log) //==> "Frank","The","Tank"
+```
+
+2. Write a function called myMap
+⋅⋅1. myMap takes two parameters.  First is an array.  Second is a callback.
+⋅⋅2. myMap applies callback to each element in the input array.
+⋅⋅3. As output, myMay returns the new array.
+```javascript
+let simpleNums = [1,2,3]
+myMap(simpleNums,multipleByThree) // ==> [3,6,9]
+```
+
+3. Write a function called myFilter
+⋅⋅1. myFilter takes two parameters.  First is an array.  Second is a callback that returns true or false.
+⋅⋅2. As output, returns an array of all elements whose callback returned true
+```javascript
+let simpleNums = [1,2,3,4,5,6]
+myForEach(simpleNums,keepOddsOnly) ==> [1,3,5]
+```
 
 ## 6. Ready To Apply / Next Steps
+
+Interested in applying to Galvanize's Web Development Immersive?
+
+Successful applicants can solve the coding challenge below.
+
+1. Write a function called locateHighestSum
+```javascript
+let sampleArr = ["111","222","333","999","636363","9792","123"];
+locateHighestSum(sampleArr) // ==> 5
+```
+⋅⋅1. As input, locateHighestSum should take an array.
+⋅⋅2. As output, locateHighestSum should find the element with the highest sum.  Then return that element's index.
+⋅⋅3. In case of ties, return the highest index.
+
+2. Extra Credit: CodeWars
+
+[CodeWars](http://codewars.com)
+
+[CodeWars Ranking System](https://www.codewars.com/docs)
+
+Studying/Training on CodeWars will help prospective students prepare for Galvanize's admissions.  
+
+Complete five (5) coding challenges of 7 kyu difficulty.  This is challenging.
+
+But the practice helps ensure your smooth transition from mere applicant to Galvanize student.  In other words, the juice is worth the squeeze.
