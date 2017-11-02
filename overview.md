@@ -26,6 +26,8 @@ Resources:
 
 [Eloquent JavaScript Ch. 1](http://eloquentjavascript.net/01_values.html)
 
+[Variables](/resources/variables.md)
+
 [String Methods](/resources/string_methods.md)
 
 [Crash Course onTypes](/resources/type_crash_course.md)
@@ -132,6 +134,9 @@ let pizzaTypes = ['deepDish','Neapolitan','thinCrust','bad'];
 ## 5. Higher-Order Functions
 [Eloquent JavaScript Ch. 5](http://eloquentjavascript.net/05_higher_order.html)
 
+[Functions Make Values](/resources/funcs_make_values)
+
+[Leveraging Multiple Functions](/resources/multi_functions)
 
 ### Check For Understanding
 1.
