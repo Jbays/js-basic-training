@@ -9,17 +9,12 @@ Basic Training Repo
 
 https://github.com/Jbays/js-basic-training
 
-CodeWars - beat 5 challenges at Level 7
-
-https://www.codewars.com/
-
 ## Table of Contents
 1.  Values, Types, and Operators
 2.  Program Structure
 3.  Functions                
 4.  Objects and Arrays
-5.  Higher-Order Functions
-6.  Ready To Apply / Next Steps
+5.  Ready To Apply / Next Steps
 
 ## 1. Values, Types, and Operators
 Resources:
@@ -133,67 +128,7 @@ let pizzaTypes = ['deepDish','Neapolitan','thinCrust','bad'];
 3. To "pet" object, use dot notation to add another key-value pair.  You choose specifics.
 4. To "pet" object, use bracket notation to add another key-value pair.  You choose specifics.
 
-## 5. Higher-Order Functions
-[Eloquent JavaScript Ch. 5](http://eloquentjavascript.net/05_higher_order.html)
-
-[Leveraging Multiple Functions](/resources/multi_functions.md)
-
-[Higher-Order Array Methods](/resources/adv_array_methods.md)
-
-### Check For Understanding (Functions II)
-1. Write a function called "iFindMax".
-```javascript
-let randomNumbers = [1,6,7,8,11,2,3,9]
-iFindMax(randomNumbers) //==> 11
-```
-⋅⋅1. For input, iFindMax takes an array
-⋅⋅2. For output, iFindMax returns the highest number in the array.
-
-2. Write a function called "iFindMin".
-```javascript
-let randoNumbos = [1,6,-7,8,11,-2,3,9]
-iFindMin(randoNumbos) //==> -7
-```
-⋅⋅1. For input, iFindMax takes an array
-⋅⋅2. For output, iFindMax returns the lowest number in the array.
-
-3. Write a function called "iLikeToAdd"
-```javascript
-let randoNumbos = [1,6,-7,8,11,-2,3,9]
-iLikeToAdd(7,4)   //==> 11
-iLikeToAdd(13,-4) //==> 9
-```
-⋅⋅1. iLikeToAdd takes two parameters.
-⋅⋅2. As output, iLikeToAdd returns the sum of both parameters
-
-### Check For Understanding (Functions III)
-
-1. Write a function called myForEach.
-⋅⋅1. myForEach takes two parameters.  First is an array.  Second is a callback.
-⋅⋅2. myForEach should apply the callback to each element in the array.
-```javascript
-let oldSchoolMovie = ["Frank", "The", "Tank"]
-myForEach(oldSchoolMovie,console.log) //==> "Frank","The","Tank"
-```
-
-2. Write a function called myMap
-⋅⋅1. myMap takes two parameters.  First is an array.  Second is a callback.
-⋅⋅2. myMap applies callback to each element in the input array.
-⋅⋅3. As output, myMay returns the new array.
-```javascript
-let simpleNums = [1,2,3]
-myMap(simpleNums,multipleByThree) // ==> [3,6,9]
-```
-
-3. Write a function called myFilter
-⋅⋅1. myFilter takes two parameters.  First is an array.  Second is a callback that returns true or false.
-⋅⋅2. As output, returns an array of all elements whose callback returned true
-```javascript
-let simpleNums = [1,2,3,4,5,6]
-myForEach(simpleNums,keepOddsOnly) ==> [1,3,5]
-```
-
-## 6. Ready To Apply / Next Steps
+## 5. Ready To Apply / Next Steps
 
 Interested in applying to Galvanize's Web Development Immersive?
 
@@ -208,7 +143,68 @@ locateHighestSum(sampleArr) // ==> 5
 ⋅⋅2. As output, locateHighestSum should find the element with the highest sum.  Then return that element's index.
 ⋅⋅3. In case of ties, return the highest index.
 
-2. Extra Credit: CodeWars
+2. Higher-Order Functions
+
+[Eloquent JavaScript Ch. 5](http://eloquentjavascript.net/05_higher_order.html)
+
+[Leveraging Multiple Functions](/resources/multi_functions.md)
+
+[Higher-Order Array Methods](/resources/adv_array_methods.md)
+
+### Check For Understanding (Functions II)
+⋅⋅1. Write a function called "iFindMax".
+```javascript
+let randomNumbers = [1,6,7,8,11,2,3,9]
+iFindMax(randomNumbers) //==> 11
+```
+⋅⋅⋅⋅1. For input, iFindMax takes an array
+⋅⋅⋅⋅2. For output, iFindMax returns the highest number in the array.
+
+⋅⋅2. Write a function called "iFindMin".
+```javascript
+let randoNumbos = [1,6,-7,8,11,-2,3,9]
+iFindMin(randoNumbos) //==> -7
+```
+⋅⋅⋅⋅1. For input, iFindMax takes an array
+⋅⋅⋅⋅2. For output, iFindMax returns the lowest number in the array.
+
+⋅⋅3. Write a function called "iLikeToAdd"
+```javascript
+let randoNumbos = [1,6,-7,8,11,-2,3,9]
+iLikeToAdd(7,4)   //==> 11
+iLikeToAdd(13,-4) //==> 9
+```
+⋅⋅⋅⋅1. iLikeToAdd takes two parameters.
+⋅⋅⋅⋅2. As output, iLikeToAdd returns the sum of both parameters
+
+### Check For Understanding (Functions III)
+
+⋅⋅1. Write a function called myForEach.
+⋅⋅⋅⋅1. myForEach takes two parameters.  First is an array.  Second is a callback.
+⋅⋅⋅⋅2. myForEach should apply the callback to each element in the array.
+```javascript
+let oldSchoolMovie = ["Frank", "The", "Tank"]
+myForEach(oldSchoolMovie,console.log) //==> "Frank","The","Tank"
+```
+
+⋅⋅2. Write a function called myMap
+⋅⋅⋅⋅1. myMap takes two parameters.  First is an array.  Second is a callback.
+⋅⋅⋅⋅2. myMap applies callback to each element in the input array.
+⋅⋅⋅⋅3. As output, myMay returns the new array.
+```javascript
+let simpleNums = [1,2,3]
+myMap(simpleNums,multipleByThree) // ==> [3,6,9]
+```
+
+⋅⋅3. Write a function called myFilter
+⋅⋅⋅⋅1. myFilter takes two parameters.  First is an array.  Second is a callback that returns true or false.
+⋅⋅⋅⋅2. As output, returns an array of all elements whose callback returned true
+```javascript
+let simpleNums = [1,2,3,4,5,6]
+myForEach(simpleNums,keepOddsOnly) ==> [1,3,5]
+```
+
+3. Extra Credit: CodeWars
 
 [CodeWars](http://codewars.com)
 
