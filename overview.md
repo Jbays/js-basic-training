@@ -148,9 +148,7 @@ locateHighestSum(sampleArr) // ==> 5
 * In case of ties, return the highest index.
 
 
-### Extra Credit
-
-1. Higher-Order Functions
+### Extra Credit - Higher-Order Functions
 
 [Eloquent JavaScript Ch. 5](http://eloquentjavascript.net/05_higher_order.html)
 
@@ -159,61 +157,72 @@ locateHighestSum(sampleArr) // ==> 5
 [Higher-Order Array Methods](/resources/adv_array_methods.md)
 
 ### Check For Understanding (Functions II)
-⋅⋅1. Write a function called "iFindMax".
+1. Write a function called "iFindMax".
+
 ```javascript
 let randomNumbers = [1,6,7,8,11,2,3,9]
 iFindMax(randomNumbers) //==> 11
 ```
-⋅⋅⋅⋅1. For input, iFindMax takes an array
-⋅⋅⋅⋅2. For output, iFindMax returns the highest number in the array.
 
-⋅⋅2. Write a function called "iFindMin".
+#### Description
+* For input, iFindMax takes an array
+* For output, iFindMax returns the highest number in the array.
+
+2. Write a function called "iFindMin".
+
 ```javascript
 let randoNumbos = [1,6,-7,8,11,-2,3,9]
 iFindMin(randoNumbos) //==> -7
 ```
-⋅⋅⋅⋅1. For input, iFindMax takes an array
-⋅⋅⋅⋅2. For output, iFindMax returns the lowest number in the array.
+#### Description
+* For input, iFindMax takes an array
+* For output, iFindMax returns the lowest number in the array.
 
-⋅⋅3. Write a function called "iLikeToAdd"
+3. Write a function called "iLikeToAdd"
+
 ```javascript
 let randoNumbos = [1,6,-7,8,11,-2,3,9]
 iLikeToAdd(7,4)   //==> 11
 iLikeToAdd(13,-4) //==> 9
 ```
-⋅⋅⋅⋅1. iLikeToAdd takes two parameters.
-⋅⋅⋅⋅2. As output, iLikeToAdd returns the sum of both parameters
+
+* iLikeToAdd takes two parameters.
+* As output, iLikeToAdd returns the sum of both parameters
 
 ### Check For Understanding (Functions III)
 
-⋅⋅1. Write a function called myForEach.
-⋅⋅⋅⋅1. myForEach takes two parameters.  First is an array.  Second is a callback.
-⋅⋅⋅⋅2. myForEach should apply the callback to each element in the array.
+1. Write a function called myForEach.
+
 ```javascript
 let oldSchoolMovie = ["Frank", "The", "Tank"]
 myForEach(oldSchoolMovie,console.log) //==> "Frank","The","Tank"
 ```
 
-⋅⋅2. Write a function called myMap
-⋅⋅⋅⋅1. myMap takes two parameters.  First is an array.  Second is a callback.
-⋅⋅⋅⋅2. myMap applies callback to each element in the input array.
-⋅⋅⋅⋅3. As output, myMay returns the new array.
+* myForEach takes two parameters.  First is an array.  Second is a callback.
+* myForEach should apply the callback to each element in the array.
+
+2. Write a function called myMap
+
 ```javascript
 let simpleNums = [1,2,3]
 myMap(simpleNums,multipleByThree) // ==> [3,6,9]
 ```
 
-⋅⋅3. Write a function called myFilter
+* myMap takes two parameters.  First is an array.  Second is a callback.
+* myMap applies callback to each element in the input array.
+* As output, myMay returns the new array.
 
-⋅⋅⋅⋅1. myFilter takes two parameters.  First is an array.  Second is a callback that returns true or false.
+3. Write a function called myFilter
 
-⋅⋅⋅⋅2. As output, returns an array of all elements whose callback returned true
 ```javascript
 let simpleNums = [1,2,3,4,5,6]
 myForEach(simpleNums,keepOddsOnly) ==> [1,3,5]
 ```
 
-2. CodeWars
+* myFilter takes two parameters.  First is an array.  Second is a callback that returns true or false.
+* As output, returns an array of all elements whose callback returned true
+
+### Extra Credit - CodeWars
 
 [CodeWars](http://codewars.com)
 
