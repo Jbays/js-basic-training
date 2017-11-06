@@ -135,13 +135,18 @@ Interested in applying to Galvanize's Web Development Immersive?
 Successful applicants can solve the coding challenge below.
 
 ###Coding Challenge
-
 1. Write a function called locateHighestSum
+
+####Description
+* As input, locateHighestSum should take an array.
+* As output, locateHighestSum should find the element with the highest sum.  Then return that element's index.
+* In case of ties, return the highest index.
+
 ```javascript
 let sampleArr = ["111","222","333","999","636363","9792","123"];
 locateHighestSum(sampleArr) // ==> 5
 ```
-####Description
+
 
 ⋅⋅1. As input, locateHighestSum should take an array.
 
