@@ -134,15 +134,22 @@ Interested in applying to Galvanize's Web Development Immersive?
 
 Successful applicants can solve the coding challenge below.
 
+###Coding Challenge
 1. Write a function called locateHighestSum
 ```javascript
 let sampleArr = ["111","222","333","999","636363","9792","123"];
 locateHighestSum(sampleArr) // ==> 5
 ```
 ⋅⋅1. As input, locateHighestSum should take an array.
+
 ⋅⋅2. As output, locateHighestSum should find the element with the highest sum.  Then return that element's index.
+
 ⋅⋅3. In case of ties, return the highest index.
 
+
+
+
+###Extra Credit
 2. Higher-Order Functions
 
 [Eloquent JavaScript Ch. 5](http://eloquentjavascript.net/05_higher_order.html)
@@ -197,14 +204,16 @@ myMap(simpleNums,multipleByThree) // ==> [3,6,9]
 ```
 
 ⋅⋅3. Write a function called myFilter
+
 ⋅⋅⋅⋅1. myFilter takes two parameters.  First is an array.  Second is a callback that returns true or false.
+
 ⋅⋅⋅⋅2. As output, returns an array of all elements whose callback returned true
 ```javascript
 let simpleNums = [1,2,3,4,5,6]
 myForEach(simpleNums,keepOddsOnly) ==> [1,3,5]
 ```
 
-3. Extra Credit: CodeWars
+3. CodeWars
 
 [CodeWars](http://codewars.com)
 
