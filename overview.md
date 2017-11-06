@@ -17,7 +17,6 @@ https://github.com/Jbays/js-basic-training
 5.  Ready To Apply / Next Steps
 
 ## 1. Values, Types, and Operators
-Resources:
 
 [Eloquent JavaScript Ch. 1](http://eloquentjavascript.net/01_values.html)
 
@@ -95,7 +94,8 @@ From now on, write your functions in **function declaration**.
 
 [MDN's Object Intro](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
-### Check For Understanding (Arrays I)
+### Check For Understanding
+#### Arrays I
 1. Write an array called "fruits" which contains three different fruits.
 2. How can I access the second piece of fruit in fruits array?
 3. Use simple array methods to add fruit to the fruits array.
@@ -106,7 +106,8 @@ From now on, write your functions in **function declaration**.
 let pizzaTypes = ['deepDish','Neapolitan','thinCrust','bad'];
 ```
 
-### Check For Understanding (Arrays II)
+### Check For Understanding
+#### Arrays II
 1. How to access 'Neapolitan'?  And 'bad'?
 2. Add a few elements in pizzaTypes array.  Remove 'thinCrust'.
 3. What are the four most common array methods for adding / removing elements?
@@ -115,14 +116,16 @@ let pizzaTypes = ['deepDish','Neapolitan','thinCrust','bad'];
 6. Use join to turn an array into a string.  Use split to turn string into array.
 7. Use Math.floor and Math.random to generate random integers.
 
-### Check For Understanding (Objects I)
+### Check For Understanding
+#### Objects I
 1. What's a key-value pair?  Make an object to illustrate.
 2. What's the difference between objects and arrays?
 3. Create an object using object literal syntax.
 4. Add and access values using both bracket and dot notation.
 5. Combine objects with arrays.  Combine arrays with objects.
 
-### Check For Understanding (Objects II)
+### Check For Understanding
+#### Objects II
 1. Create an empty object called "pet".
 2. To your pet object, add "name", "color", "age", and "isFavorite" key-value pairs.  "name" and "color" type are strings.  "age" is a number.  "isFavorite" is boolean.
 3. To "pet" object, use dot notation to add another key-value pair.  You choose specifics.
@@ -141,7 +144,6 @@ Successful applicants can solve the coding challenge below.
 let sampleArr = ["111","222","333","999","636363","9792","123"];
 locateHighestSum(sampleArr) // ==> 5
 ```
-
 #### Description
 * As input, locateHighestSum should take an array.
 * As output, locateHighestSum should find the element with the highest sum.  Then return that element's index.
@@ -185,7 +187,6 @@ let randoNumbos = [1,6,-7,8,11,-2,3,9]
 iLikeToAdd(7,4)   //==> 11
 iLikeToAdd(13,-4) //==> 9
 ```
-
 #### Description
 * iLikeToAdd takes two parameters.
 * As output, iLikeToAdd returns the sum of both parameters
@@ -217,7 +218,7 @@ myMap(simpleNums,multipleByThree) // ==> [3,6,9]
 
 ```javascript
 let simpleNums = [1,2,3,4,5,6]
-myForEach(simpleNums,keepOddsOnly) ==> [1,3,5]
+myForEach(simpleNums,keepOddsOnly) //==> [1,3,5]
 ```
 #### Description
 * myFilter takes two parameters.  First is an array.  Second is a callback that returns true or false.
