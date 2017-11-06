@@ -135,11 +135,14 @@ Interested in applying to Galvanize's Web Development Immersive?
 Successful applicants can solve the coding challenge below.
 
 ###Coding Challenge
+
 1. Write a function called locateHighestSum
 ```javascript
 let sampleArr = ["111","222","333","999","636363","9792","123"];
 locateHighestSum(sampleArr) // ==> 5
 ```
+####Description
+
 ⋅⋅1. As input, locateHighestSum should take an array.
 
 ⋅⋅2. As output, locateHighestSum should find the element with the highest sum.  Then return that element's index.
@@ -147,9 +150,8 @@ locateHighestSum(sampleArr) // ==> 5
 ⋅⋅3. In case of ties, return the highest index.
 
 
-
-
 ###Extra Credit
+
 2. Higher-Order Functions
 
 [Eloquent JavaScript Ch. 5](http://eloquentjavascript.net/05_higher_order.html)
