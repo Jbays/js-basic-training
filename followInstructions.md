@@ -1,21 +1,23 @@
 # Follow These Instructions
-
 Today's success depends on your ability to follow instructions.
 
-1. Please fill out the survey below:
+## Step 1
+Please fill out the survey below:
 https://www.surveymonkey.com/r/CJCK3WL
 
-2.  First, you must clone down a repo from Github.  Enclosed below is the link.
+## Step 2
+From jbays's Github account, copy js-basic-training.  Link is below.
 https://github.com/Jbays/js-basic-training
 
-3. What else does a student need to be successful today?
+## Step 3
+Today's class requires a text editor.  For simplicity, I recommend an online resource called Repl.it.
 
-  Necessary
-  1. Chrome browser.  
-  2. Atom.
-  3. Github account.
+### 1. [Repl.it](https://repl.it/languages/javascript)
 
-  Optional
-  1. iterm, ohmyzsh, node
+### OPTIONAL
+#### 1. [Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+#### 2. [Atom](https://atom.io/)
+#### 3. [Github account](https://github.com/join?source=prompt-code)
 
-4. After completing all instructions here, your new source of truth is overview.md.
+## Step 4
+After completing all instructions here, focus on [overview.md](/overview).
