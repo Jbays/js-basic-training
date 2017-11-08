@@ -20,4 +20,4 @@ Today's class requires a text editor.  For simplicity, I recommend an online res
 #### 3. [Github account](https://github.com/join?source=prompt-code)
 
 ## Step 4
-After completing all instructions here, focus on [overview.md](/overview).
+After completing all instructions here, focus on [overview.md](/overview.md).
