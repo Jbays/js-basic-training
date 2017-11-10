@@ -82,8 +82,20 @@ basicTrainingString.lastIndexOf('i');
 
 ### Check For Understanding (Functions I)
 1. What is the basic anatomy of a function?
-2. In two different styles, write a function called "basicFunction" that logs to the console "hello world".  First time use "function declaration".  Second time use "function expression".
 
+#### 2. Write a function called "basicFunction".
+
+```javascript
+basicFunction() //==> "hello world"
+```
+
+#### Description
+* As input, basicFunction takes nothing.
+* As output, basicFunction logs to the console "hello world"
+* Write first as a "function expression".
+* Write second as a "function declaration".
+
+### NOTE
 From now on, write your functions in **function declaration**.
 
 ## 4. Objects and Arrays
@@ -159,7 +171,7 @@ locateHighestSum(sampleArr) // ==> 5
 [Higher-Order Array Methods](/resources/adv_array_methods.md)
 
 ### Check For Understanding (Functions II)
-#### 1. Write a function called "iFindMax".
+#### 1. Write a function called "iFindMax"
 
 ```javascript
 let randomNumbers = [1,6,7,8,11,2,3,9]
@@ -170,7 +182,7 @@ iFindMax(randomNumbers) //==> 11
 * For input, iFindMax takes an array
 * For output, iFindMax returns the highest number in the array.
 
-#### 2. Write a function called "iFindMin".
+#### 2. Write a function called "iFindMin"
 
 ```javascript
 let randoNumbos = [1,6,-7,8,11,-2,3,9]
@@ -193,7 +205,7 @@ iLikeToAdd(13,-4) //==> 9
 
 ### Check For Understanding (Functions III)
 
-#### 1. Write a function called myForEach.
+#### 1. Write a function called myForEach
 
 ```javascript
 let oldSchoolMovie = ["Frank", "The", "Tank"]
