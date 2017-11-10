@@ -195,13 +195,13 @@ iFindMin(randoNumbos) //==> -7
 #### 3. Write a function called "iLikeToAdd"
 
 ```javascript
-let randoNumbos = [1,6,-7,8,11,-2,3,9]
-iLikeToAdd(7,4)   //==> 11
-iLikeToAdd(13,-4) //==> 9
+let randoNumbos = [1,6,-7,8,11,2,3,9]
+iLikeToAdd([1,2,3])     //==> 6
+iLikeToAdd(randoNumbos) //==> 33
 ```
 #### Description
-* iLikeToAdd takes two parameters.
-* As output, iLikeToAdd returns the sum of both parameters
+* iLikeToAdd takes an array as parameter.
+* As output, iLikeToAdd returns the sum of all array's elements.
 
 ### Check For Understanding (Functions III)
 
