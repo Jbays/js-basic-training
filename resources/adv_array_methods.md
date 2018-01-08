@@ -1,6 +1,6 @@
-# Higher Order Array Methods
+# Higher Order Functions
 
-This article focuses on improving your fluency in using 4 of the main higher order `Array` methods:
+This article focuses on improving your fluency in using 4 of the main higher order functions:
 
 - `forEach`
 - `map`

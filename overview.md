@@ -15,6 +15,8 @@ https://github.com/Jbays/js-basic-training
 3.  Functions                
 4.  Objects and Arrays
 5.  Ready To Apply / Next Steps
+6.  Higher-Order Functions
+7.  Extra Credit
 
 ## 1. Values, Types, and Operators
 
@@ -168,7 +170,7 @@ locateHighestSum(sampleArr) // ==> 5
 
 [Leveraging Multiple Functions](/resources/multi_functions.md)
 
-[Higher-Order Array Methods](/resources/adv_array_methods.md)
+[Higher-Order Functions](/resources/adv_array_methods.md)
 
 ### Check For Understanding (Functions II)
 #### 1. Write a function called "iFindMax"
@@ -189,7 +191,7 @@ let randoNumbos = [1,6,-7,8,11,-2,3,9]
 iFindMin(randoNumbos) //==> -7
 ```
 #### Description
-* For input, iFindMax takes an array
+* For input, iFindMax takes an array.
 * For output, iFindMax returns the lowest number in the array.
 
 #### 3. Write a function called "iLikeToAdd"
@@ -200,8 +202,8 @@ iLikeToAdd([1,2,3])     //==> 6
 iLikeToAdd(randoNumbos) //==> 33
 ```
 #### Description
-* iLikeToAdd takes an array as parameter.
-* As output, iLikeToAdd returns the sum of all array's elements.
+* For input, iLikeToAdd takes an array.
+* For output, iLikeToAdd returns the sum of all array's elements.
 
 ### Check For Understanding (Functions III)
 

@@ -12,8 +12,8 @@ https://www.surveymonkey.com/r/CJCK3WL
 From jbays's Github account, copy js-basic-training.  Link is below.
 https://github.com/Jbays/js-basic-training
 
-### How-To
-Not sure how to
+### Unfamiliar With Github?
+Here's a video walkthrough for copying a repo.
 https://youtu.be/E1wiBM-vCA0
 
 ## Step 4 - Text Editor
