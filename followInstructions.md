@@ -31,5 +31,8 @@ Chrome is the industry standard for web browsers.
 Github is the industry standard for version control.  All developers have a Github account.
 #### 4. [Github account](https://github.com/join?source=prompt-code)
 
+Find the # hard to read?.  Here's an online markdown editor.
+#### 5. [Markdown Editor](https://jbt.github.io/markdown-editor/)
+
 ## Step 5
 After completing all instructions here, focus on [overview.md](/overview.md).

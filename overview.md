@@ -91,7 +91,7 @@ basicTrainingString.lastIndexOf('i');
 
 [Intro To Functions](/resources/intro_to_func.md)
 
-[Basic Use of Function](/resources/basics_func.md)
+[Basic Use of Functions](/resources/basics_func.md)
 
 [Defining Functions](/resources/defining_func.md)
 
