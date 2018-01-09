@@ -24,14 +24,16 @@ https://github.com/Jbays/js-basic-training
 
 [Variables](/resources/variables.md)
 
-[String Methods](/resources/string_methods.md)
+[Crash Course on Types](/resources/type_crash_course.md)
 
-[Crash Course onTypes](/resources/type_crash_course.md)
+[Strings and Other Types](https://www.javascript.com/learn/javascript/strings)
+
+[String Methods](/resources/string_methods.md)
 
 ### Check For Understanding
 #### Types
 1. JavaScript has how many different types?
-2. List all types.
+2. List all types.  Simply, describe uses for each type.
 3. Declare a variable of each type.
 
 #### Strings
@@ -59,6 +61,18 @@ basicTrainingString.lastIndexOf('i');
 
 [Eloquent JavaScript Ch. 2](http://eloquentjavascript.net/02_program_structure.html)
 
+[Conditionals for Beginners](https://www.w3schools.com/js/js_if_else.asp)
+
+[Conditionals for Beginners pt. 2](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
+
+[Conditionals for Intermediates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+
+[Loops for Beginners](https://www.w3schools.com/js/js_loop_for.asp)
+
+[Loops for Beginners pt. 2](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)
+
+[For-loops for Intermediate](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+
 ### Check For Understanding
 #### Conditionals
 1. Write a conditional
@@ -72,6 +86,7 @@ basicTrainingString.lastIndexOf('i');
 7. Write a DECREMENTING for-loop that logs 100 through 1 to the console.
 
 ## 3. Functions
+
 [Eloquent JavaScript Ch. 3](http://eloquentjavascript.net/03_functions.html)
 
 [Intro To Functions](/resources/intro_to_func.md)
@@ -104,9 +119,11 @@ From now on, write your functions in **function declaration**.
 
 [Eloquent JavaScript Ch. 4](http://eloquentjavascript.net/04_data.html)
 
-[Intro To Arrays](/resources/intro_to_arrays)
+[Intro To Arrays](/resources/intro_to_arrays.md)
 
-[MDN's Object Intro](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+[Objects for Beginners](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+
+[Object for Beginners pt. 2](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 
 ### Check For Understanding
 #### Arrays I
@@ -181,7 +198,7 @@ iFindMax(randomNumbers) //==> 11
 ```
 
 #### Description
-* For input, iFindMax takes an array
+* For input, iFindMax takes an array.
 * For output, iFindMax returns the highest number in the array.
 
 #### 2. Write a function called "iFindMin"
@@ -248,4 +265,4 @@ Studying/Training on CodeWars will help prospective students prepare for Galvani
 
 Complete five (5) coding challenges of 7 kyu difficulty.  This is challenging.
 
-But the practice helps ensure your smooth transition from mere applicant to Galvanize student.  In other words, the juice is worth the squeeze.
+But the practice helps ensure your smooth transition from mere applicant to Galvanize student.  In other words, this juice is worth the squeeze.
