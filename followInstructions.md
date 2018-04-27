@@ -3,7 +3,7 @@ Today's success depends on your ability to follow instructions.
 
 ## Step 1 - Complete Survey
 Please fill out the survey below:
-https://www.surveymonkey.com/r/Z77FH85
+https://www.surveymonkey.com/r/NTJ2QTM
 
 ## Step 2 - Join Slack
 **Sign up for our Slack channel**.  For help, contact class admin.

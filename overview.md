@@ -98,7 +98,8 @@ basicTrainingString.lastIndexOf('i');
 [Functions Make Values](/resources/funcs_make_values.md)
 
 ### Check For Understanding (Functions I)
-1. What is the basic anatomy of a function?
+
+#### 1. What is the basic anatomy of a function?
 
 #### 2. Write a function called "basicFunction".
 
@@ -114,6 +115,69 @@ basicFunction() //==> "hello world"
 
 ### NOTE
 From now on, write your functions in **function declaration**.
+
+#### 3. Write a function called "sayHello".
+```javascript
+sayHello('joe')          //==> "hello joe"
+sayHello('Tommy')        //==> "hello Tommy"
+sayHello('Frankenstein') //==> "hello Frankenstein"
+```
+
+#### Description
+* As input, sayHello takes a string.
+* As output, sayHello logs to the console "hello"+<input>
+
+#### 4. Write a function called "addTwoNums".
+```javascript
+addTwoNums(2,4)   //==> 6
+addTwoNums(7,9)   //==> 16
+addTwoNums(12,32) //==> 44
+```
+
+#### Description
+* As input, addTwoNums takes two numbers.
+* As output, addTwoNums returns the result.
+
+#### 4. Write a function called "containsLetter".
+```javascript
+containsLetter("anna","a")   //==> true
+containsLetter("anna","b")   //==> false
+containsLetter("anna","n")   //==> true
+containsLetter("anna","z")   //==> false
+containsLetter("abcdefghij","e") //==> true
+containsLetter("abcdefghij","k") //==> false
+```
+
+#### Description
+* As input, containsLetter takes two strings.
+* As output, containsLetter returns a boolean indicating whether the second input is contained in the first.
+
+#### 5. Write a function called "fizzBuzz".
+```javascript
+fizzBuzz()
+//1
+//2
+//"fizz"
+//4
+//"buzz"
+//"fizz"
+//7
+//8
+//"fizz"
+//"buzz"
+//11
+//"fizz"
+//13
+//14
+//"fizzBuzz"
+```
+
+#### Description
+* As input, fizzBuzz takes nothing.
+* As output, fizzBuzz prints numbers 1 thru 100 to the console.
+//**              (1). For multiples of 3, instead print "Fizz"
+//**              (2). For multiples of 5, instead print "Buzz"
+//**              (3). For multiples of 3 & 5, instead print "FizzBuzz"
 
 ## 4. Objects and Arrays
 
