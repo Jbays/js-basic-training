@@ -13,11 +13,11 @@ Here's a video walkthrough for copying a repo.
 https://youtu.be/E1wiBM-vCA0
 
 ## Step 3 - Text Editor
-Today's class requires a text editor.  I recommend Atom text editor.  Use to read your copy of js-basic-training.
+Today's class requires a text editor.  I recommend VSCode text editor.  Use to read your copy of js-basic-training.
 
 Also required is a text editor for writing / testing today's code.  For simplicity, I recommend the simple and powerful Repl.it.
 
-### [Atom](https://atom.io/)
+### [VSCode](https://code.visualstudio.com/)
 ### [Repl.it](https://repl.it/languages/javascript)
 
 ### Optional
